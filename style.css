@@ -1,9 +1,42 @@
+/* i spaced it out a bit and tried to use some different colours c: */
 :root {
-  --purple:#D024ED; --pink:#ED24B1; --lightblue:#24EDED;
+  --purple: #D024ED;
+  --pink: #ED24B1;
+  --lightblue: #24EDED;
 }
-body { font-family: 'Comic Sans MS', 'Comic Sans', cursive; margin:0; background:var(--purple); color:var(--pink); }
-header { background:var(--pink); color:#fff; padding:1rem; }
-main { background:#fff; color:var(--pink); max-width:900px; margin:2rem auto; border-radius:12px; padding:1.5rem; }
-a { color: var(--purple); }
-h2 { color: var(--lightblue); font-size: 1.8rem; }
-img { border-radius: 10px; }
+
+body {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  margin: 0;
+  background: var(--purple);
+  color: var(--pink);
+}
+
+header {
+  background: var(--pink);
+  color: #fff;
+  padding: 1rem;
+}
+
+main {
+  background: #fff;
+  color: var(--pink);
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+a {
+  color: var(--lightblue);
+}
+
+
+h2 {
+  color: var(--lightblue);
+  font-size: 1.8rem;
+}
+
+img {
+  border-radius: 10px;
+}
